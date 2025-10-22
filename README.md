@@ -7,9 +7,9 @@ num pad subtract : toggle fog
 0 - 4 : Stationary cameras (4 showcases point light)
 
 5 : Free Camera
-    Hold LShift + 
-        Space : move down
 
+    Hold LShift + Space : move down
+    
     Space : move up
 
     w : move forward
