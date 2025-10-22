@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5394c41e-db37-4ff9-a493-8ca4e597f8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{5266ad1c-0bf2-4d5b-b03d-df6633ddc347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{81128341-f1fc-4fa0-a5d9-ef53db6c8760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\3DSMax">
+      <UniqueIdentifier>{2e49b16c-519c-44bd-8357-a4324d0dff71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Blender">
+      <UniqueIdentifier>{3067befd-f037-446e-82bd-f06d15993c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{e3370e1c-5d81-421a-a1ac-2d19f8f3dc33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW Files">
+      <UniqueIdentifier>{d55bc3e0-6c3c-47cf-a9d8-34be5a650ee1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX11Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX11Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON\json.hpp">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleShaders.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="JSON\test.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="SkyboxShader.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BillboardShader.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="RAW Files\Heightmap 513x513.raw">
+      <Filter>RAW Files</Filter>
+    </None>
+    <None Include="RAW Files\HeightmapWithBlendLayer.raw">
+      <Filter>RAW Files</Filter>
+    </None>
+    <None Include="TerrainShader.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HLSLnotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\asphalt_COLOR.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\asphalt_DISP.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\asphalt_NORMAL.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\asphalt_SPEC.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Crate_COLOR.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Crate_NRM.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Crate_SPEC.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Car_COLOR.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Hercules_COLOR.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Pine_Tree.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\skybox.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\ChainLink.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Blend.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\DarkDirt.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\grass.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\lightdirt.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\snow.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\stone.dds">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Models\Car.obj">
+      <Filter>Models</Filter>
+    </Object>
+    <Object Include="Models\Hercules.obj">
+      <Filter>Models</Filter>
+    </Object>
+    <Object Include="Models\Blender\cube.obj">
+      <Filter>Models\Blender</Filter>
+    </Object>
+    <Object Include="Models\Blender\cylinder.obj">
+      <Filter>Models\Blender</Filter>
+    </Object>
+    <Object Include="Models\Blender\donut.obj">
+      <Filter>Models\Blender</Filter>
+    </Object>
+    <Object Include="Models\Blender\sphere.obj">
+      <Filter>Models\Blender</Filter>
+    </Object>
+    <Object Include="Models\3DSMax\cube.obj">
+      <Filter>Models\3DSMax</Filter>
+    </Object>
+    <Object Include="Models\3DSMax\cylinder.obj">
+      <Filter>Models\3DSMax</Filter>
+    </Object>
+    <Object Include="Models\3DSMax\donut.obj">
+      <Filter>Models\3DSMax</Filter>
+    </Object>
+    <Object Include="Models\3DSMax\sphere.obj">
+      <Filter>Models\3DSMax</Filter>
+    </Object>
+    <Object Include="Models\3DSMax\star.obj">
+      <Filter>Models\3DSMax</Filter>
+    </Object>
+    <Object Include="Models\3DSMax\torusKnot.obj">
+      <Filter>Models\3DSMax</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

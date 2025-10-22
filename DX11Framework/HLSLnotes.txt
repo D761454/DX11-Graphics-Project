@@ -1,0 +1,62 @@
+void AllMemoryBarrier(void); - blocks execution of all threads in a group until all memory accesses have been completed.
+
+ret asint(x), ret asfloat(x) - converts input type to int, or float
+
+ret clamp(x, min, max) - clamps value into specified range
+
+ret cross (x, y) - return cross product of 2 float 3D vectors
+
+ret dot(x, y) - returns dot product of 2 vectors
+
+ret degrees(x) - radians -> degrees
+
+ret radians(x) - degrees -> radians
+
+fVector dst(
+  in fVector src0,
+  in fVector src1
+);
+	- calculates a distance vector
+
+ret distance(x, y) - returns a distance scalar between 2 vectors
+
+ret exp(x), ret exp2(x) - return base-e and base-2 exponents (2: per component)
+
+ret floor(x) - return largest int (as float) <= x
+
+UINT GetRenderTargetSampleCount() - gets the number of samples for a render target
+
+float<2> GetRenderTargetSamplePosition( in int<1> Index) - gets the sampling position (x,y) for a given sample index.
+
+ret isfinite(x) - true if x is finite, else false
+
+ret isinf(x) - true if x is INF or -INF, else false
+
+ret isnan(x) - true if x is NAN or QNAN, else false
+
+ret lerp(x, y, s) - Returns x + s(y - x)
+
+ret lit(n_dot_l, n_dot_h, m) - returns a lighting coefficient vector (ambient, diffuse, specular, 1)
+
+ret max(x, y) - return the greater of x and y
+
+ret min(x, y) - return the lesser of x and y
+
+ret mul(x, y) - multiplies x and y using matrix math. The inner dimension x-columns and y-rows must be equal
+
+ret noise(x) - generate random value - Perlin-noise algorithm
+
+ret normalize(x) - normalizes the specified floating-point vector according to x / length(x)
+
+ret pos(x, y) - returns X to the power of y
+
+ret reflect(i, n) - float incident vector, float normal vector - return reflection vector using incident ray and surface normal
+
+ret refract(i, n, ?) - float ray direction vector, float surface normal vector, float refraction indec scalar 
+- returns a refraction vector using an entering ray, a surface normal, and a refraction index
+
+tex 1D 2D 3D CUBE - texture lookups
+
+sin cos tan - self explanatory
+
+ret transpose(x) - transposes input matrix

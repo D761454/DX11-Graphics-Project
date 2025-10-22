@@ -1,0 +1,82 @@
+{
+  "objects": [
+    {
+      "File": "Models/Hercules.obj",
+      "HasTex": 1,
+      "HasSpec": 0,
+      "HasNorm": 0,
+      "Blender": 0,
+      "TextureC": "Textures\\Hercules_COLOR.dds"
+    },
+    {
+      "File": "Models/Car.obj",
+      "HasTex": 1,
+      "HasSpec": 0,
+      "HasNorm": 0,
+      "Blender": 0,
+      "TextureC": "Textures\\Car_COLOR.dds"
+    },
+    {
+      "File": "Models/Blender/Cube.obj",
+      "HasTex": 1,
+      "HasSpec": 1,
+      "HasNorm": 1,
+      "Blender": 1,
+      "TextureC": "Textures\\Crate_COLOR.dds",
+      "TextureS": "Textures\\Crate_SPEC.dds",
+      "TextureN": "Textures\\Crate_NRM.dds"
+    },
+    {
+      "File": "Models/Blender/Cube.obj",
+      "HasTex": 1,
+      "HasSpec": 1,
+      "HasNorm": 0,
+      "Blender": 1,
+      "TextureC": "Textures\\Crate_COLOR.dds",
+      "TextureS": "Textures\\Crate_SPEC.dds",
+      "TextureN": "Textures\\Crate_NRM.dds"
+    },
+    {
+      "File": "Models/Blender/Cube.obj",
+      "HasTex": 1,
+      "HasSpec": 0,
+      "HasNorm": 0,
+      "Blender": 1,
+      "TextureC": "Textures\\ChainLink.dds"
+    },
+    {
+      "File": "Models/Blender/Cube.obj",
+      "HasTex": 1,
+      "HasSpec": 0,
+      "HasNorm": 0,
+      "Blender": 1,
+      "TextureC": "Textures\\skybox.dds",
+      "TextureS": "",
+      "TextureN": ""
+    }
+  ],
+  "lights": [
+    {
+      "Type": "ambient",
+      "R": 0.1,
+      "G": 0.1,
+      "B": 0.1,
+      "A": 1.0
+    },
+    {
+      "Type": "diffuse",
+      "R": 0.5,
+      "G": 0.5,
+      "B": 0.5,
+      "A": 1.0
+    },
+    {
+      "Type": "specular",
+      "R": 0.8,
+      "G": 0.8,
+      "B": 0.8,
+      "A": 1.0
+    }
+  ],
+  "version": "1.1"
+}
